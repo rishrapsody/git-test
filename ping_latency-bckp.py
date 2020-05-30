@@ -4,7 +4,7 @@ import re
 import time
 import matplotlib.pyplot as plt
 import subprocess
-
+import sys
 
 def ping_func(ip_to_check, count, size):
 	try:
